@@ -436,6 +436,15 @@ else:
     print(f" You are {current_age} years old ")
     
     
+#web search with google
+
+import webbrowser
+
+user_term = input('Enter a search term: ')
+
+webbrowser.open("https://www.google.com/search?q=" + user_term)    
+    
+    
     
 #Write a program that gets a list of names from the user and returns the number of names given. You are encouraged to use a function.
 
@@ -499,7 +508,7 @@ print(score, '/', len(data))
 '''
 
 
-'''
+
 #Todo App
 
  #allow the user add or see inputed todo using matchcase statement
@@ -596,16 +605,10 @@ while True:
         print('Command is not valid')
 
 print('Todo list Exited')
-'''
 
 
-#web search with google
 
-import webbrowser
 
-user_term = input('Enter a search term: ')
-
-webbrowser.open("https://www.google.com/search?q=" + user_term)
 
 
 
